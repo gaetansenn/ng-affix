@@ -31,7 +31,13 @@
           function init() {
             $timeout(function () {
               startInformation = getInformation(element);
-              stopInformation = getInformation(angular.element($document[0].getElementById(stopElement)));
+
+              if ($document[0].getElementById(stopElement)) {
+                stopInformation = getInformation(angular.element($document[0].getElementById(stopElement)));
+              } else {
+                stopInformation = element[0].offsetParent;
+                if (stopInformation) stopInformation = getInformation(angular.element(stopInformation));
+              }
 
               bind(startInformation, offset, stopInformation, callbackStart, callbackStop, callbackReset);
 
