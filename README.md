@@ -37,7 +37,6 @@ Angular affix directive working with the attribute element (restrict: 'A').
   stop-class = "type: string, default 'stop-affix' (the class that is injected when the element is in its bottom-most position)"
   offset = "type: integer, default 0 (the offset added to the top-most position)"
   stop-element = "type: string, default using the parent div (the elementId used to apply the bottom-most position)"
- 	>
  </div>
  ```
  
