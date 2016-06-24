@@ -25,7 +25,7 @@ angular.module('main', ['ngAffix']);
 Angular affix directive working with the attribute element (restrict: 'A').
  
  ```html
- <div affix start-class="affix-start" stop-class="affix-stop" offset="60" stop-element="elementStop">
+ <div affix start-class="affix-start" stop-class="affix-stop" offset="60" stop-element="elementStop"></div>
  ```
  
  For more advanced functionality you can add a couple of options:
