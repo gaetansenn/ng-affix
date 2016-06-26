@@ -3,7 +3,7 @@ AngularJS Affix
 
 **Angular Affix** is an AngularJS affix directive.
 
-### Current Version 0.1.0
+### Current Version 0.1.1
 
 # Getting stated
 Optionally: to install with bower, use:
